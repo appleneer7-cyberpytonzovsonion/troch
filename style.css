@@ -1,3 +1,13 @@
+/* Custom background setup so you can see the glowing effect */
+body {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
 /* From Uiverse.io by KSAplay */ 
 .container input {
   position: absolute;
@@ -129,7 +139,6 @@
   background-color: #443622;
 }
 
-.side div:nth-child(2),
 .side div:nth-child(2) {
   background-color: #2e2517;
 }
@@ -215,7 +224,6 @@
   background-color: #7c623e;
 }
 
-.container input:checked ~ .torch .side div:nth-child(2),
 .container input:checked ~ .torch .side div:nth-child(2) {
   background-color: #4c3d26;
 }
